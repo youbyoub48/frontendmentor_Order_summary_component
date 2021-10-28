@@ -17,14 +17,14 @@ body
 
 .content
 {
-    margin-top: 10em;
+    margin-top: 3.5em;
     display: flex;
     flex-direction: column;
     box-shadow: 20px 50px 100px rgba(0, 0, 0, .2) ;
     background-color: hsl(225, 100%, 98%);
     text-align: center;
-    width: 400px;
-    height: 500px;
+    width: 450px;
+    height: 700px;
     border-radius: 15px;
 }
 
@@ -43,9 +43,63 @@ p
 span
 {
     color: hsl(223, 47%, 23%);
-    font-size: 25px;
     font-weight: bold;
 }
+
+h1
+{
+    color: hsl(223, 47%, 23%);
+}
+
+.tarif
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.description
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.description p
+{
+    width: 70%;
+}
+
+#icon_music
+{
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+a 
+{
+    color: hsl(245, 75%, 52%);
+}
+
+#price
+{
+    margin-top: 0.1em;
+}
+
+.text
+{
+    margin-right: 5em;
+}
+
+.tarif a
+{
+    margin-left: 0.3em;
+}
+
+
 
 .attribution
 {
