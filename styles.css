@@ -17,14 +17,14 @@ body
 
 .content
 {
-    margin-top: 3.5em;
+    margin-top: 5em;
     display: flex;
     flex-direction: column;
     box-shadow: 20px 50px 100px rgba(0, 0, 0, .2) ;
     background-color: hsl(225, 100%, 98%);
     text-align: center;
     width: 450px;
-    height: 700px;
+    height: 670px;
     border-radius: 15px;
 }
 
@@ -49,6 +49,7 @@ span
 h1
 {
     color: hsl(223, 47%, 23%);
+    font-weight: bold;
 }
 
 .tarif
@@ -99,13 +100,53 @@ a
     margin-left: 0.3em;
 }
 
+.button a:link
+{
+    text-decoration: none;
+}
 
+.button
+{
+    background-color: hsl(245, 75%, 52%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.button a
+{
+    color: white;
+}
+
+.proceed
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+#cancel:link
+{
+    text-decoration: none;
+}
+
+#cancel
+{
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+}
 
 .attribution
 {
     font-size: 11px;
     text-align: center;
-    margin-top: 10em;
+    margin-top: 8em;
 }
 
 .attribution a
